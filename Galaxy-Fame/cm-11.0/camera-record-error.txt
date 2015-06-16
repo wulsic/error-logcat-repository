@@ -1,0 +1,309 @@
+06-16 18:42:34.409 V/CAM_PhotoModule(7695): old picture_size = 2560 x 1920
+06-16 18:42:34.409 W/BackupManagerService(1696): dataChanged but no participant pkg='com.android.camera2' uid=10032
+06-16 18:42:34.419 V/CAM_PhotoModule(7695): new picture_size = 2560 x 1920
+06-16 18:42:34.419 V/CAM_PhotoModule(7695): Preview size is 320x240
+06-16 18:42:34.419 V/CAM_PhotoModule(7695): Color effect value =none
+06-16 18:42:34.419 V/CAM_PhotoModule(7695): Face Recognition value = off
+06-16 18:42:34.419 V/CAM_PhotoModule(7695): AE Bracketing value =Off
+06-16 18:42:34.419 V/CAM_PhotoModule(7695): autoExposure value =frame-average
+06-16 18:42:34.419 V/CAM_PhotoModule(7695): antiBanding value =auto
+06-16 18:42:34.419 D/Util    (7695): Parameters: [antibanding-values=auto,50hz,60hz,off, antibanding=auto, auto-exposure-lock-supported=false, auto-whitebalance-lock-supported=false, cam_mode=1, camera-mode=0, dtp-mode=0, effect-values=none,mono,sepia,negative, effect=none, exposure-compensation-step=1, exposure-compensation=0, flash-mode-values=off,auto,on,torch, flash-mode=auto, focal-length=3.43, focus-areas=(0,0,0,0,0), focus-distances=0.10,1.20,Infinity,, focus-mode-values=auto,macro,infinity, focus-mode=auto, horizontal-view-angle=51.2, iso-values=auto,50,100,200,400,800,1200,1600,2400,3200,sports,night,movie, iso=auto, jpeg-quality=85, jpeg-thumbnail-height=240, jpeg-thumbnail-quality=90, jpeg-thumbnail-size-values=0x0,320x240, jpeg-thumbnail-width=320, max-exposure-compensation=4, max-num-detected-faces-hw=0, max-num-detected-faces-sw=0, max-num-focus-areas=1, max-num-metering-areas=0, max-zoom=8, metering-values=matrix,center,spot, metering=center, min-exposure-compensation=-4, picture-format-values=jpeg, picture-format=jpeg, picture-size-values=640x480,1024x768,2560x1920,144x176,176x144,192x256,240x352,256x192,288x352,320x240,352x240,352x288,480x320,640x384,1280x960,1600x960,1600x1200,2048x1152,2560x1536,2048x1536, picture-size=2560x1920, preview-format-values=yuv420sp,yuv420p, preview-format=yuv420sp, preview-fps-range-values=(5000,10000),(5000,15000),(16000,25000),(4000,30000),(16000,30000), preview-fps-range=4000,30000, preview-frame-rate-values=10,15,25,30, preview-frame-rate=30, preview-size-values=640x480,176x144,320x240,352x288,480x320,640x360,640x384, preview-size=320x240, recording-hint=false, rotation=90, scene-mode-values=auto,portrait,night,back-light,landscape,sports,party,beach,snow,sunset,dusk-dawn,fall-color,fireworks,text,candlelight, scene-mode=auto, sensor-orientation=0, vertical-view-angle=39.4, video-frame-format=yuv420p, video-snapshot-supported=false, video-stabilization-supported=false, vtmode=2, wdr=1, whitebalance-values=auto,cloudy-daylight,fluorescent,daylight,incandescent, whitebalance=auto, 
+06-16 18:42:34.419 D/Util    (7695): Parameters: zoom-ratios=100,111,122,133,144,155,166,177,188,, zoom-supported=true, zoom=0, zsl=off]
+06-16 18:42:34.419 I/CameraHAL(1314): verifyParameters(KEY_EXPOSURE_COMPENSATION): 0
+06-16 18:42:34.419 V/CAM_PhotoModule(7695): Restarting Preview...
+06-16 18:42:34.419 V/CAM_PhotoModule(7695): stopPreview
+06-16 18:42:34.419 I/V4L2CameraDevice(1314): inWorkerThread(): Worker thread has benn terminated
+06-16 18:42:34.419 I/V4L2CameraDevice(1314): stopDeliveringFrames(): camera device is not streaming anymore
+06-16 18:42:34.419 E/V4L2CameraDevice(1314): stopDevice(): stop ISP start. mIsp=4218d008
+06-16 18:42:34.419 E/V4L2CameraDevice(1314): stopDevice(): ISP still enabled
+06-16 18:42:34.429 E/V4L2CameraDevice(1314): stopDevice(): ISP release
+06-16 18:42:34.429 E/V4L2CameraDevice(1314): stopDevice(): stop ISP finished
+06-16 18:42:34.429 I/V4L2CameraDevice(1314): stopDevice(): successfully stopped camera device
+06-16 18:42:34.429 I/PreviewWindow(1314): returnBuffersToWindow(): removing 4 buffers from frame queue
+06-16 18:42:34.429 I/PreviewWindow(1314): returnBuffersToWindow(): marking 0 buffers held with camera device as invalid
+06-16 18:42:34.429 E/CAM_PhotoModule(7695): Width = 320Height = 240
+06-16 18:42:34.429 V/CAM_PhotoModule(7695): startPreview
+06-16 18:42:34.429 V/CAM_PhotoModule(7695): old picture_size = 2560 x 1920
+06-16 18:42:34.429 V/CAM_PhotoModule(7695): new picture_size = 2560 x 1920
+06-16 18:42:34.439 V/CAM_PhotoModule(7695): Preview size is 320x240
+06-16 18:42:34.439 V/CAM_PhotoModule(7695): Color effect value =none
+06-16 18:42:34.439 V/CAM_PhotoModule(7695): Face Recognition value = off
+06-16 18:42:34.439 V/CAM_PhotoModule(7695): AE Bracketing value =Off
+06-16 18:42:34.439 V/CAM_PhotoModule(7695): autoExposure value =frame-average
+06-16 18:42:34.439 V/CAM_PhotoModule(7695): antiBanding value =auto
+06-16 18:42:34.439 D/Util    (7695): Parameters: [antibanding-values=auto,50hz,60hz,off, antibanding=auto, auto-exposure-lock-supported=false, auto-whitebalance-lock-supported=false, cam_mode=1, camera-mode=0, dtp-mode=0, effect-values=none,mono,sepia,negative, effect=none, exposure-compensation-step=1, exposure-compensation=0, flash-mode-values=off,auto,on,torch, flash-mode=auto, focal-length=3.43, focus-areas=(0,0,0,0,0), focus-distances=0.10,1.20,Infinity,, focus-mode-values=auto,macro,infinity, focus-mode=auto, horizontal-view-angle=51.2, iso-values=auto,50,100,200,400,800,1200,1600,2400,3200,sports,night,movie, iso=auto, jpeg-quality=85, jpeg-thumbnail-height=240, jpeg-thumbnail-quality=90, jpeg-thumbnail-size-values=0x0,320x240, jpeg-thumbnail-width=320, max-exposure-compensation=4, max-num-detected-faces-hw=0, max-num-detected-faces-sw=0, max-num-focus-areas=1, max-num-metering-areas=0, max-zoom=8, metering-values=matrix,center,spot, metering=center, min-exposure-compensation=-4, picture-format-values=jpeg, picture-format=jpeg, picture-size-values=640x480,1024x768,2560x1920,144x176,176x144,192x256,240x352,256x192,288x352,320x240,352x240,352x288,480x320,640x384,1280x960,1600x960,1600x1200,2048x1152,2560x1536,2048x1536, picture-size=2560x1920, preview-format-values=yuv420sp,yuv420p, preview-format=yuv420sp, preview-fps-range-values=(5000,10000),(5000,15000),(16000,25000),(4000,30000),(16000,30000), preview-fps-range=4000,30000, preview-frame-rate-values=10,15,25,30, preview-frame-rate=30, preview-size-values=640x480,176x144,320x240,352x288,480x320,640x360,640x384, preview-size=320x240, recording-hint=false, rotation=90, scene-mode-values=auto,portrait,night,back-light,landscape,sports,party,beach,snow,sunset,dusk-dawn,fall-color,fireworks,text,candlelight, scene-mode=auto, sensor-orientation=0, vertical-view-angle=39.4, video-frame-format=yuv420p, video-snapshot-supported=false, video-stabilization-supported=false, vtmode=2, wdr=1, whitebalance-values=auto,cloudy-daylight,fluorescent,daylight,incandescent, whitebalance=auto, 
+06-16 18:42:34.439 D/Util    (7695): Parameters: zoom-ratios=100,111,122,133,144,155,166,177,188,, zoom-supported=true, zoom=0, zsl=off]
+06-16 18:42:34.439 I/CameraHAL(1314): verifyParameters(KEY_EXPOSURE_COMPENSATION): 0
+06-16 18:42:34.439 I/PreviewWindow(1314): setPreviewWindow(): current: 0x400d48a0 -> new: 0x400d48a0
+06-16 18:42:34.439 W/PreviewWindow(1314): This should not happen preview window should be set to null before setting it again
+06-16 18:42:34.439 I/PreviewWindow(1314): returnBuffersToWindow(): removing 0 buffers from frame queue
+06-16 18:42:34.439 I/PreviewWindow(1314): returnBuffersToWindow(): marking 0 buffers held with camera device as invalid
+06-16 18:42:34.439 I/PreviewWindow(1314): setPreviewWindow(): number of buffers set to Window 6
+06-16 18:42:34.449 I/PreviewWindow(1314): setPreviewWindow(): start preview is not yet called. Buffers will be dequeued later
+06-16 18:42:34.449 E/CameraHAL(1314): startPreview(): preview_size 320 x 240
+06-16 18:42:34.449 I/PreviewWindow(1314): startPreview(): mDequeueGrallocBuffers flag set, dequeue gralloc buffers
+06-16 18:42:34.449 I/PreviewWindow(1314): getGrallocBuffers(): setting buffer geometry to 320x240
+06-16 18:42:34.449 I/PreviewWindow(1314): getGrallocBuffers(): minimum undequeued buffer = 2
+06-16 18:42:34.459 I/CameraHAL(1314): startPreview(): starting camera with width=320 height=240
+06-16 18:42:34.459 I/CameraHAL(1314): startPreview(): in normal camera preview mode 
+06-16 18:42:34.459 E/V4L2CameraDevice(1314): unsupported pixel format YU12
+06-16 18:42:34.459 I/V4L2CameraDevice(1314): startDevice(): checking whether sensor supports zoom levels
+06-16 18:42:34.459 I/V4L2CameraDevice(1314): startDevice(): engaging external ISP for zoom
+06-16 18:42:34.459 I/V4L2CameraDevice(1314): startDevice(): selected resolution 1024x768(aspect ration=1.33) at 30.00 fps
+06-16 18:42:34.469 I/CameraHAL(1314): get_number_of_cameras(): reports 2 cameras
+06-16 18:42:34.469 I/CameraHAL(1314): get_camera_info(): camera0 set to orient=90 facing=0
+06-16 18:42:34.469 E/CAM_PhotoModule(7695): Width = 320Height = 240
+06-16 18:42:34.479 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:34.479 V/CAM_PhotoModule(7695): onSharedPreferenceChanged Skin tone bar: change
+06-16 18:42:34.489 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:34.489 W/InputMethodManagerService(1696): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4260cc88 attribute=null, token = android.os.BinderProxy@425c89d8
+06-16 18:42:34.499 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:34.499 D/BRCM_EGL(7695): eglMakeCurrent(0x516dffe0, 0x52c8ccc8, 0x52c8ccc8) Thread: 7695
+06-16 18:42:34.499 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:34.509 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:34.519 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:34.519 I/V4L2CameraParameters(1314): ctrl:Touchfocus areas supported and is currently set to 1
+06-16 18:42:34.539 I/V4L2CameraDevice(1314): startDevice(): successfully started camera device(w=320,h=240,fmt=YU12)
+06-16 18:42:34.539 I/V4L2CameraDevice(1314): startDevice(): Previous callback buffer exists. Delete it. mCallbackBuffer[0] = 0x41e43250 
+06-16 18:42:34.539 I/V4L2CameraDevice(1314): startDevice(): Previous callback buffer exists. Delete it. mCallbackBuffer[1] = 0x42193ea0 
+06-16 18:42:34.539 I/V4L2CameraDevice(1314): startDevice(): Previous callback buffer exists. Delete it. mCallbackBuffer[2] = 0x4865d6f0 
+06-16 18:42:34.539 I/V4L2CameraDevice(1314): startDeliveringFrames(): CAMERA_PREVIEW_MODE 
+06-16 18:42:34.539 I/V4L2CameraDevice(1314): startDeliveringFrames(): camera device is now streaming
+06-16 18:42:36.281 D/SensorsPoll(1696): poll__setDelay: handle:0 , ns:200000000
+06-16 18:42:36.291 E/HSCDSensor(1696): Error AcdSetParam
+06-16 18:42:36.291 D/SensorsPoll(1696): +poll__activate: handle=1 enabled=0
+06-16 18:42:36.291 D/HSCDSensor(1696): HSCD_activate_sensor : 2, en=0
+06-16 18:42:36.291 D/HSCDSensor(1696): HSCD_activate_MagneticField: 0
+06-16 18:42:36.301 D/CAM_PhotoModule(7695): remove idle handleer in onPause
+06-16 18:42:36.301 V/CAM_PhotoModule(7695): On pause.
+06-16 18:42:36.301 V/CAM_PhotoModule(7695): stopPreview
+06-16 18:42:36.301 I/V4L2CameraParameters(1314): Canceled auto focus success 
+06-16 18:42:36.301 I/V4L2CameraDevice(1314): inWorkerThread(): Worker thread has benn terminated
+06-16 18:42:36.301 I/V4L2CameraDevice(1314): stopDeliveringFrames(): camera device is not streaming anymore
+06-16 18:42:36.301 E/V4L2CameraDevice(1314): stopDevice(): stop ISP start. mIsp=4218d008
+06-16 18:42:36.301 E/V4L2CameraDevice(1314): stopDevice(): ISP still enabled
+06-16 18:42:36.301 E/V4L2CameraDevice(1314): stopDevice(): ISP release
+06-16 18:42:36.301 E/V4L2CameraDevice(1314): stopDevice(): stop ISP finished
+06-16 18:42:36.301 I/V4L2CameraDevice(1314): stopDevice(): successfully stopped camera device
+06-16 18:42:36.301 I/PreviewWindow(1314): returnBuffersToWindow(): removing 4 buffers from frame queue
+06-16 18:42:36.301 I/PreviewWindow(1314): returnBuffersToWindow(): marking 0 buffers held with camera device as invalid
+06-16 18:42:36.301 V/CAM_PhotoModule(7695): Close camera device.
+06-16 18:42:36.301 W/CameraHAL(1314): stopPreview(): camera device is not streaming
+06-16 18:42:36.311 W/CAM_UI  (7695): SurfaceTexture destroyed
+06-16 18:42:36.361 I/CameraHAL(1314): verifyParameters(KEY_EXPOSURE_COMPENSATION): 0
+06-16 18:42:36.371 I/CameraHAL(1314): get_number_of_cameras(): reports 2 cameras
+06-16 18:42:36.371 I/CameraHAL(1314): get_camera_info(): camera0 set to orient=90 facing=0
+06-16 18:42:36.381 V/CAM_VideoModule(7695): mDesiredPreviewWidth=320. mDesiredPreviewHeight=240
+06-16 18:42:36.381 V/CAM_VideoModule(7695): Video Encoder selected = 2
+06-16 18:42:36.381 V/CAM_VideoModule(7695): Audio Encoder selected = 3
+06-16 18:42:36.381 I/CameraHAL(1314): get_number_of_cameras(): reports 2 cameras
+06-16 18:42:36.381 I/CameraHAL(1314): get_camera_info(): camera0 set to orient=90 facing=0
+06-16 18:42:36.391 W/BackupManagerService(1696): dataChanged but no participant pkg='com.android.camera2' uid=10032
+06-16 18:42:36.391 W/BackupManagerService(1696): dataChanged but no participant pkg='com.android.camera2' uid=10032
+06-16 18:42:36.411 V/CAM_VideoModule(7695): mDesiredPreviewWidth=320. mDesiredPreviewHeight=240
+06-16 18:42:36.411 V/CAM_VideoModule(7695): Video Encoder selected = 2
+06-16 18:42:36.411 V/CAM_VideoModule(7695): Audio Encoder selected = 3
+06-16 18:42:36.411 V/CAM_VideoModule(7695): startPreview
+06-16 18:42:36.411 D/SensorsPoll(1696): poll__setDelay: handle:0 , ns:200000000
+06-16 18:42:36.431 E/HSCDSensor(1696): Error AcdSetParam
+06-16 18:42:36.431 D/SensorsPoll(1696): poll__setDelay: handle:0 , ns:200000000
+06-16 18:42:36.451 E/HSCDSensor(1696): Error AcdSetParam
+06-16 18:42:36.451 V/CAM_VideoModule(7695): onOrientationChanged, update parameters
+06-16 18:42:36.461 V/CAM_VideoModule(7695): startPreview
+06-16 18:42:36.461 I/CameraHAL(1314): get_number_of_cameras(): reports 2 cameras
+06-16 18:42:36.461 I/CameraHAL(1314): get_camera_info(): camera0 set to orient=90 facing=0
+06-16 18:42:36.461 D/CAM_VideoModule(7695): Preview dimension in App->320X240
+06-16 18:42:36.461 E/CAM_VideoModule(7695): Video dimension in App->320x240
+06-16 18:42:36.471 V/CAM_VideoModule(7695): Video snapshot size is 2560x1920
+06-16 18:42:36.471 V/CAM_VideoModule(7695): Color effect value =none
+06-16 18:42:36.471 V/CAM_VideoModule(7695): DIS value =disable
+06-16 18:42:36.471 D/CAM_VideoModule(7695): default antibanding value = auto
+06-16 18:42:36.471 D/CAM_VideoModule(7695): antiBanding value = auto
+06-16 18:42:36.471 V/CAM_VideoModule(7695): Video HDR Setting =off
+06-16 18:42:36.471 D/Util    (7695): Parameters: [antibanding-values=auto,50hz,60hz,off, antibanding=auto, auto-exposure-lock-supported=false, auto-whitebalance-lock-supported=false, cam_mode=1, dtp-mode=0, effect-values=none,mono,sepia,negative, effect=none, exposure-compensation-step=1, exposure-compensation=0, flash-mode-values=off,auto,on,torch, flash-mode=off, focal-length=3.43, focus-areas=(0,0,1,1,1), focus-distances=0.10,1.20,Infinity,, focus-mode-values=auto,macro,infinity, focus-mode=auto, horizontal-view-angle=51.2, iso-values=auto,50,100,200,400,800,1200,1600,2400,3200,sports,night,movie, iso=auto, jpeg-quality=90, jpeg-thumbnail-height=240, jpeg-thumbnail-quality=90, jpeg-thumbnail-size-values=0x0,320x240, jpeg-thumbnail-width=320, max-exposure-compensation=4, max-num-detected-faces-hw=0, max-num-detected-faces-sw=0, max-num-focus-areas=1, max-num-metering-areas=0, max-zoom=8, metering-values=matrix,center,spot, metering=center, min-exposure-compensation=-4, picture-format-values=jpeg, picture-format=jpeg, picture-size-values=640x480,1024x768,2560x1920,144x176,176x144,192x256,240x352,256x192,288x352,320x240,352x240,352x288,480x320,640x384,1280x960,1600x960,1600x1200,2048x1152,2560x1536,2048x1536, picture-size=2560x1920, preview-format-values=yuv420sp,yuv420p, preview-format=yuv420sp, preview-fps-range-values=(5000,10000),(5000,15000),(16000,25000),(4000,30000),(16000,30000), preview-fps-range=16000,30000, preview-frame-rate-values=10,15,25,30, preview-frame-rate=30, preview-size-values=640x480,176x144,320x240,352x288,480x320,640x360,640x384, preview-size=320x240, recording-hint=true, rotation=90, scene-mode-values=auto,portrait,night,back-light,landscape,sports,party,beach,snow,sunset,dusk-dawn,fall-color,fireworks,text,candlelight, scene-mode=auto, sensor-orientation=0, vertical-view-angle=39.4, video-frame-format=yuv420p, video-hdr=off, video-hfr=off, video-size=320x240, video-snapshot-supported=false, video-stabilization-supported=false, vtmode=2, wdr=1, whitebalance-values=auto,cloudy-daylight,fluorescent,daylight,incandescent, 
+06-16 18:42:36.471 D/Util    (7695): Parameters: whitebalance=auto, zoom-ratios=100,111,122,133,144,155,166,177,188,, zoom-supported=true, zoom=0]
+06-16 18:42:36.471 I/CameraHAL(1314): verifyParameters(KEY_EXPOSURE_COMPENSATION): 0
+06-16 18:42:36.481 I/PreviewWindow(1314): setPreviewWindow(): current: 0x400d48a0 -> new: 0x400d48a0
+06-16 18:42:36.481 W/PreviewWindow(1314): This should not happen preview window should be set to null before setting it again
+06-16 18:42:36.481 I/PreviewWindow(1314): returnBuffersToWindow(): removing 0 buffers from frame queue
+06-16 18:42:36.481 I/PreviewWindow(1314): returnBuffersToWindow(): marking 0 buffers held with camera device as invalid
+06-16 18:42:36.481 I/PreviewWindow(1314): setPreviewWindow(): number of buffers set to Window 6
+06-16 18:42:36.481 I/PreviewWindow(1314): setPreviewWindow(): start preview is not yet called. Buffers will be dequeued later
+06-16 18:42:36.481 E/CameraHAL(1314): startPreview(): preview_size 320 x 240
+06-16 18:42:36.481 I/PreviewWindow(1314): startPreview(): mDequeueGrallocBuffers flag set, dequeue gralloc buffers
+06-16 18:42:36.481 I/PreviewWindow(1314): getGrallocBuffers(): setting buffer geometry to 320x240
+06-16 18:42:36.481 I/PreviewWindow(1314): getGrallocBuffers(): minimum undequeued buffer = 2
+06-16 18:42:36.491 I/CameraHAL(1314): startPreview(): starting camera with width=320 height=240
+06-16 18:42:36.491 I/CameraHAL(1314): startPreview(): in recording preview mode 
+06-16 18:42:36.491 E/V4L2CameraDevice(1314): unsupported pixel format YU12
+06-16 18:42:36.491 I/V4L2CameraDevice(1314): startDevice(): checking whether sensor supports zoom levels
+06-16 18:42:36.491 I/V4L2CameraDevice(1314): startDevice(): engaging external ISP for zoom
+06-16 18:42:36.491 I/V4L2CameraDevice(1314): startDevice(): selected resolution 1024x768(aspect ration=1.33) at 30.00 fps
+06-16 18:42:36.501 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:36.501 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:36.511 D/CameraStorage(7695): External storage state=mounted
+06-16 18:42:36.511 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:36.521 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:36.531 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:36.531 E/V4L2CameraDevice(1314): startDevice: mCameraFormat: UYVY
+06-16 18:42:36.531 I/V4L2CameraParameters(1314): ctrl:Touchfocus areas supported and is currently set to 1
+06-16 18:42:36.541 I/V4L2CameraDevice(1314): startDevice(): successfully started camera device(w=320,h=240,fmt=YU12)
+06-16 18:42:36.541 I/V4L2CameraDevice(1314): startDeliveringFrames(): CAMCORDER_PREVIEW_MODE 
+06-16 18:42:36.851 I/V4L2CameraDevice(1314): startDeliveringFrames(): camera device is now streaming
+06-16 18:42:36.851 I/V4L2CameraParameters(1314): setPreveiwFrameRange(): setting frame range(minFps=16000, maxFps=30000) fr=8
+06-16 18:42:36.972 I/CameraHAL(1314): __setParameters(): preview frame range set to 16000,30000
+06-16 18:42:36.972 I/V4L2CameraParameters(1314): setFlashMode(): setting mode=1
+06-16 18:42:36.972 I/CameraHAL(1314): __setParameters(): flash mode set to off
+06-16 18:42:36.972 I/CameraHAL(1314): __setParameters(): Jpeg quality set to 90
+06-16 18:42:37.572 V/CAM_VideoModule(7695): startVideoRecording
+06-16 18:42:37.572 D/CameraStorage(7695): External storage state=mounted
+06-16 18:42:37.582 V/CAM_VideoModule(7695): initializeRecorder
+06-16 18:42:37.592 W/StagefrightRecorder(1314): Max file duration is not positive: 0 us. Disabling duration limit.
+06-16 18:42:37.592 W/StagefrightRecorder(1314): Target duration (0 us) too short to be respected
+06-16 18:42:37.592 V/CAM_VideoModule(7695): New video filename: /storage/emulated/0/DCIM/Camera/VID_20150616_184237.mp4.tmp
+06-16 18:42:37.602 D/CameraSource(1314): Camera does not support setVideoSize()
+06-16 18:42:37.602 I/CameraHAL(1314): verifyParameters(KEY_EXPOSURE_COMPENSATION): 0
+06-16 18:42:37.602 E/CallbackNotifier(1314): *** USE_METADATA_BUFFER_MODE ENABLED ***
+06-16 18:42:37.602 W/StagefrightRecorder(1314): Failed to create the encoder
+06-16 18:42:37.602 D/CameraSource(1314): reset: E
+06-16 18:42:37.602 W/CameraClient(1314): attempt to use a locked camera from a different process (old pid 1314, new pid 7695)
+06-16 18:42:37.602 D/CameraSource(1314): reset: X
+06-16 18:42:37.602 E/MediaRecorder(7695): start failed: -2147483648
+06-16 18:42:37.602 E/CAM_VideoModule(7695): Could not start media recorder. 
+06-16 18:42:37.602 E/CAM_VideoModule(7695): java.lang.RuntimeException: start failed.
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at android.media.MediaRecorder.start(Native Method)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at com.android.camera.VideoModule.startVideoRecording(VideoModule.java:1656)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at com.android.camera.VideoModule.onShutterButtonClick(VideoModule.java:730)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at com.android.camera.ShutterButton.performClick(ShutterButton.java:142)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at android.view.View$PerformClick.run(View.java:18446)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at android.os.Handler.handleCallback(Handler.java:733)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at android.os.Looper.loop(Looper.java:136)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at android.app.ActivityThread.main(ActivityThread.java:5146)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at java.lang.reflect.Method.invokeNative(Native Method)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at java.lang.reflect.Method.invoke(Method.java:515)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+06-16 18:42:37.602 E/CAM_VideoModule(7695): 	at dalvik.system.NativeStart.main(Native Method)
+06-16 18:42:37.602 V/CAM_VideoModule(7695): Releasing media recorder.
+06-16 18:42:37.602 V/CAM_VideoModule(7695): Empty video file deleted: /storage/emulated/0/DCIM/Camera/VID_20150616_184237.mp4.tmp
+06-16 18:42:38.563 V/CAM_VideoModule(7695): startVideoRecording
+06-16 18:42:38.563 D/CameraStorage(7695): External storage state=mounted
+06-16 18:42:38.573 V/CAM_VideoModule(7695): initializeRecorder
+06-16 18:42:38.583 W/StagefrightRecorder(1314): Max file duration is not positive: 0 us. Disabling duration limit.
+06-16 18:42:38.583 W/StagefrightRecorder(1314): Target duration (0 us) too short to be respected
+06-16 18:42:38.583 V/CAM_VideoModule(7695): New video filename: /storage/emulated/0/DCIM/Camera/VID_20150616_184238.mp4.tmp
+06-16 18:42:38.583 D/CameraSource(1314): Camera does not support setVideoSize()
+06-16 18:42:38.593 I/CameraHAL(1314): verifyParameters(KEY_EXPOSURE_COMPENSATION): 0
+06-16 18:42:38.593 E/CallbackNotifier(1314): *** USE_METADATA_BUFFER_MODE ENABLED ***
+06-16 18:42:38.593 W/StagefrightRecorder(1314): Failed to create the encoder
+06-16 18:42:38.593 D/CameraSource(1314): reset: E
+06-16 18:42:38.593 W/CameraClient(1314): attempt to use a locked camera from a different process (old pid 1314, new pid 7695)
+06-16 18:42:38.593 D/CameraSource(1314): reset: X
+06-16 18:42:38.593 E/MediaRecorder(7695): start failed: -2147483648
+06-16 18:42:38.593 E/CAM_VideoModule(7695): Could not start media recorder. 
+06-16 18:42:38.593 E/CAM_VideoModule(7695): java.lang.RuntimeException: start failed.
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at android.media.MediaRecorder.start(Native Method)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at com.android.camera.VideoModule.startVideoRecording(VideoModule.java:1656)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at com.android.camera.VideoModule.onShutterButtonClick(VideoModule.java:730)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at com.android.camera.ShutterButton.performClick(ShutterButton.java:142)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at android.view.View$PerformClick.run(View.java:18446)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at android.os.Handler.handleCallback(Handler.java:733)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at android.os.Looper.loop(Looper.java:136)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at android.app.ActivityThread.main(ActivityThread.java:5146)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at java.lang.reflect.Method.invokeNative(Native Method)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at java.lang.reflect.Method.invoke(Method.java:515)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+06-16 18:42:38.593 E/CAM_VideoModule(7695): 	at dalvik.system.NativeStart.main(Native Method)
+06-16 18:42:38.593 V/CAM_VideoModule(7695): Releasing media recorder.
+06-16 18:42:38.593 V/CAM_VideoModule(7695): Empty video file deleted: /storage/emulated/0/DCIM/Camera/VID_20150616_184238.mp4.tmp
+06-16 18:42:41.346 V/CAM_VideoModule(7695): startVideoRecording
+06-16 18:42:41.356 D/CameraStorage(7695): External storage state=mounted
+06-16 18:42:41.356 V/CAM_VideoModule(7695): initializeRecorder
+06-16 18:42:41.366 W/StagefrightRecorder(1314): Max file duration is not positive: 0 us. Disabling duration limit.
+06-16 18:42:41.366 W/StagefrightRecorder(1314): Target duration (0 us) too short to be respected
+06-16 18:42:41.366 V/CAM_VideoModule(7695): New video filename: /storage/emulated/0/DCIM/Camera/VID_20150616_184241.mp4.tmp
+06-16 18:42:41.366 D/CameraSource(1314): Camera does not support setVideoSize()
+06-16 18:42:41.366 I/CameraHAL(1314): verifyParameters(KEY_EXPOSURE_COMPENSATION): 0
+06-16 18:42:41.366 E/CallbackNotifier(1314): *** USE_METADATA_BUFFER_MODE ENABLED ***
+06-16 18:42:41.366 W/StagefrightRecorder(1314): Failed to create the encoder
+06-16 18:42:41.366 D/CameraSource(1314): reset: E
+06-16 18:42:41.366 W/CameraClient(1314): attempt to use a locked camera from a different process (old pid 1314, new pid 7695)
+06-16 18:42:41.366 D/CameraSource(1314): reset: X
+06-16 18:42:41.376 E/MediaRecorder(7695): start failed: -2147483648
+06-16 18:42:41.376 E/CAM_VideoModule(7695): Could not start media recorder. 
+06-16 18:42:41.376 E/CAM_VideoModule(7695): java.lang.RuntimeException: start failed.
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at android.media.MediaRecorder.start(Native Method)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at com.android.camera.VideoModule.startVideoRecording(VideoModule.java:1656)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at com.android.camera.VideoModule.onShutterButtonClick(VideoModule.java:730)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at com.android.camera.ShutterButton.performClick(ShutterButton.java:142)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at android.view.View$PerformClick.run(View.java:18446)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at android.os.Handler.handleCallback(Handler.java:733)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at android.os.Looper.loop(Looper.java:136)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at android.app.ActivityThread.main(ActivityThread.java:5146)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at java.lang.reflect.Method.invokeNative(Native Method)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at java.lang.reflect.Method.invoke(Method.java:515)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+06-16 18:42:41.376 E/CAM_VideoModule(7695): 	at dalvik.system.NativeStart.main(Native Method)
+06-16 18:42:41.376 V/CAM_VideoModule(7695): Releasing media recorder.
+06-16 18:42:41.376 V/CAM_VideoModule(7695): Empty video file deleted: /storage/emulated/0/DCIM/Camera/VID_20150616_184241.mp4.tmp
+06-16 18:42:43.898 D/SensorsPoll(1696): poll__setDelay: handle:0 , ns:200000000
+06-16 18:42:43.908 E/HSCDSensor(1696): Error AcdSetParam
+06-16 18:42:43.908 V/CAM_VideoModule(7695): closeCamera
+06-16 18:42:43.918 I/V4L2CameraDevice(1314): inWorkerThread(): Worker thread has benn terminated
+06-16 18:42:43.918 I/V4L2CameraDevice(1314): stopDeliveringFrames(): camera device is not streaming anymore
+06-16 18:42:43.918 E/V4L2CameraDevice(1314): stopDevice(): stop ISP start. mIsp=4218d008
+06-16 18:42:43.918 E/V4L2CameraDevice(1314): stopDevice(): ISP still enabled
+06-16 18:42:43.918 E/V4L2CameraDevice(1314): stopDevice(): ISP release
+06-16 18:42:43.918 E/V4L2CameraDevice(1314): stopDevice(): stop ISP finished
+06-16 18:42:43.918 I/V4L2CameraDevice(1314): stopDevice(): successfully stopped camera device
+06-16 18:42:43.918 I/PreviewWindow(1314): returnBuffersToWindow(): removing 4 buffers from frame queue
+06-16 18:42:43.918 I/PreviewWindow(1314): returnBuffersToWindow(): marking 0 buffers held with camera device as invalid
+06-16 18:42:43.918 I/PreviewWindow(1314): setPreviewWindow(): current: 0x400d48a0 -> new: 0x0
+06-16 18:42:43.918 I/PreviewWindow(1314): returnBuffersToWindow(): removing 0 buffers from frame queue
+06-16 18:42:43.918 I/PreviewWindow(1314): returnBuffersToWindow(): marking 0 buffers held with camera device as invalid
+06-16 18:42:43.918 I/CameraClient(1314): Destroying camera 0
+06-16 18:42:43.918 W/BrcmAbstractCameraDevice(1314): stopDeliveringFrames: Device is not started
+06-16 18:42:44.239 I/V4L2CameraDevice(1314): stopDeliveringFrames(): camera device is not streaming anymore
+06-16 18:42:44.239 W/V4L2CameraDevice(1314): stopDevice():camera device is not started.
+06-16 18:42:44.239 I/CameraHAL(1314): +closeCamera and cancelAutoFocus()
+06-16 18:42:44.239 I/V4L2CameraParameters(1314): Canceled auto focus success 
+06-16 18:42:44.239 I/CallbackNotifier(1314): inNotifierThread(): Received exit command, exiting notifier thread
+06-16 18:42:44.319 E/CallbackNotifier(1314): putMsg(): invalid thread control fd
+06-16 18:42:44.319 E/CallbackNotifier(1314): stopThread(): failed to stop notifier thread
+06-16 18:42:44.319 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4225ed50 successful
+06-16 18:42:44.319 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4225ec98 successful
+06-16 18:42:44.319 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x46966ed8 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41fbbe98 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41fb9f00 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4224f348 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41fc1f40 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x42252c28 successful
+06-16 18:42:44.329 V/CAM_VideoModule(7695): Releasing media recorder.
+06-16 18:42:44.329 D/SensorsPoll(1696): +poll__activate: handle=0 enabled=0
+06-16 18:42:44.329 D/HSCDSensor(1696): HSCD_activate_sensor : 1, en=0
+06-16 18:42:44.329 D/HSCDSensor(1696): HSCD_activate_Accelerometer: 0
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x44019998 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41e38b08 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41e38a38 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41e38870 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x44019f68 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x44019e40 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x44019d00 successful
+06-16 18:42:44.329 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x44019ae0 successful
+06-16 18:42:44.379 D/BRCM_EGL(2016): eglCreateWindowSurface() surface: 0x52f2cad8, VC surface: 5, Thread: 2016
+06-16 18:42:44.379 D/BRCM_EGL(2016): eglMakeCurrent(0x54838988, 0x52f2cad8, 0x52f2cad8) Thread: 2016
+06-16 18:42:44.449 I/Timeline(2016): Timeline: Activity_idle id: android.os.BinderProxy@41fa0068 time:5058530
+06-16 18:42:44.459 D/CAM_VideoUI(7695): surfaceTexture is destroyed
+06-16 18:42:44.459 D/BRCM_EGL(7695): eglMakeCurrent(NULL) Thread: 7695
+06-16 18:42:44.459 D/BRCM_EGL(7695): eglDestroySurface() surface: 0x52c8ccc8, android window 0x4002a010, Thread: 7695
+06-16 18:42:44.879 I/Timeline(1696): Timeline: Activity_windows_visible id: ActivityRecord{425572d8 u0 com.cyanogenmod.trebuchet/org.cyanogenmod.trebuchet.CustomHomeLauncher t1} time:5058966
+06-16 18:42:44.989 I/ActivityManager(1696): Killing 7319:com.android.defcontainer/u0a5 (adj 15): empty #17
+06-16 18:42:45.019 D/BRCM_EGL(7695): eglMakeCurrent(0x516dffe0, 0x514c5588, 0x514c5588) Thread: 7695
+06-16 18:42:45.019 D/BRCM_EGL(7695): eglMakeCurrent(NULL) Thread: 7695
+06-16 18:42:45.039 D/BRCM_EGL(7695): eglMakeCurrent(0x516dffe0, 0x514c5588, 0x514c5588) Thread: 7695
+06-16 18:42:45.039 D/BRCM_EGL(7695): eglMakeCurrent(NULL) Thread: 7695

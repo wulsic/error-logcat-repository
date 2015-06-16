@@ -1,0 +1,254 @@
+06-16 18:43:46.349 D/OMXCodec(1314): Successfully allocated OMX node 'OMX.google.h264.decoder'
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] AVC profile = 77 (Main), level = 30
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] video dimensions are 320 x 240
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] Crop rect is 320 x 240 @ (0, 0)
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocating 8 buffers of size 65536 on input port
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x41fbbbf0 on input port
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x41fbbdb8 on input port
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x41e38518 on input port
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x41e385e8 on input port
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x41e386b8 on input port
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x4224fa80 on input port
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x41fbbc48 on input port
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x41fbbce8 on input port
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocating 2 buffers of size 115200 on output port
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x46520e08 on output port
+06-16 18:43:46.349 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x4224f8b8 on output port
+06-16 18:43:46.359 W/AudioPolicyManagerBase(1314): offload disabled by av.offload.enable = false 
+06-16 18:43:46.449 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:OMX_BaseComponentSync: SYNC interface
+06-16 18:43:46.569 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:startCommandHandler: Started commandHandler thread...
+06-16 18:43:46.569 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:startCodecSyncHandler: Started CodecSyncHandler thread...
+06-16 18:43:46.580 D/OMXCodec(1314): Successfully allocated OMX node 'OMX.brcm.audio.aac.decoder'
+06-16 18:43:46.600 I/OMXCodec(1314): Codec outputs a different number of channels than the input stream contains (contains 1 channels, codec outputs 2 channels).
+06-16 18:43:46.600 I/OMXCodec(1314): Codec outputs at different sampling rate than what the input stream contains (contains data at 22050 Hz, codec outputs 44100 Hz)
+06-16 18:43:46.600 I/AwesomePlayer(1314): Could not offload audio decode, try pcm offload (16-bit)
+06-16 18:43:46.600 W/AudioPolicyManagerBase(1314): offload disabled by av.offload.enable = false 
+06-16 18:43:46.600 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocating 4 buffers of size 8192 on input port
+06-16 18:43:46.600 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x46397f78 on input port
+06-16 18:43:46.600 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-0,  Populated state <0>
+06-16 18:43:46.600 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x44890ee0 on input port
+06-16 18:43:46.600 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x400d4a48 on input port
+06-16 18:43:46.600 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x400d4ad0 on input port
+06-16 18:43:46.600 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-0,  Populated state <1>
+06-16 18:43:46.600 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <0>
+06-16 18:43:46.600 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocating 4 buffers of size 24576 on output port
+06-16 18:43:46.600 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x400d4c70 on output port
+06-16 18:43:46.600 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x41e395e8 on output port
+06-16 18:43:46.600 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x41e39728 on output port
+06-16 18:43:46.600 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x41e39850 on output port
+06-16 18:43:46.600 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <1>
+06-16 18:43:46.600 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:startBufferHandler: Started BufferHandler thread-0...
+06-16 18:43:46.600 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:startBufferHandler: Started BufferHandler thread-1...
+06-16 18:43:46.680 D/BRCM_EGL(6855): eglMakeCurrent(0x54b98430, 0x5c918350, 0x5c918350) Thread: 6855
+06-16 18:43:47.300 V/Zygote  (7869): Switching descriptor 33 to /dev/null
+06-16 18:43:47.300 V/Zygote  (7869): Switching descriptor 9 to /dev/null
+06-16 18:43:47.310 I/ActivityManager(1696): Start proc com.maxmpz.audioplayer for service com.maxmpz.audioplayer/.player.HeadsetMicroService: pid=7869 uid=10078 gids={50078, 1028, 1015, 3003, 3002}
+06-16 18:43:47.751 D/MobileDataStateTracker(1696): default: setPolicyDataEnable(enabled=true)
+06-16 18:43:47.891 D/MediaPlayer(6855): getMetadata
+06-16 18:43:48.011 E/SoftAVC (1314): Decoder failed: -2
+06-16 18:43:48.011 E/OMXCodec(1314): [OMX.google.h264.decoder] ERROR(0x80001001, -1007)
+06-16 18:43:48.011 D/AudioPlayer(1314): start of Playback, useOffload 0
+06-16 18:43:48.011 W/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processHeader: dec header consumed only 0 bytes, discarding 5 bytes
+06-16 18:43:48.011 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processHeader: sample rate [44100] does not match with codec sample rate [0]
+06-16 18:43:48.011 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processHeader: channels [2] does not match with codec channels [0]
+06-16 18:43:48.011 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+06-16 18:43:48.011 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41e395e8 successful
+06-16 18:43:48.011 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41e39728 successful
+06-16 18:43:48.011 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41e39850 successful
+06-16 18:43:48.011 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x400d4c70 successful
+06-16 18:43:48.011 I/OMXCodec(1314): Codec outputs a different number of channels than the input stream contains (contains 1 channels, codec outputs 2 channels).
+06-16 18:43:48.011 I/OMXCodec(1314): Codec outputs at different sampling rate than what the input stream contains (contains data at 22050 Hz, codec outputs 44100 Hz)
+06-16 18:43:48.011 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocating 4 buffers of size 24576 on output port
+06-16 18:43:48.011 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x4225d1b0 on output port
+06-16 18:43:48.011 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x400d4b28 on output port
+06-16 18:43:48.011 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x400d4db0 on output port
+06-16 18:43:48.011 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x41e396b8 on output port
+06-16 18:43:48.021 D/AudioPolicyManagerBase(1314): getOutput() device 2, stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+06-16 18:43:48.021 D/AudioPolicyManagerBase(1314): getOutput() returns output 2
+06-16 18:43:48.021 D/AudioPolicyManagerBase(1314): getOutput() device 2, stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+06-16 18:43:48.021 D/AudioPolicyManagerBase(1314): getOutput() returns output 2
+06-16 18:43:48.021 D/AudioPolicyManagerBase(1314): getOutput() device 2, stream 3, samplingRate 44100, format 1, channelMask 3, flags 0
+06-16 18:43:48.021 D/AudioPolicyManagerBase(1314): getOutput() returns output 2
+06-16 18:43:48.031 D/AudioPolicyManagerBase(1314): getOutput() device 2, stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+06-16 18:43:48.031 D/AudioPolicyManagerBase(1314): getOutput() returns output 2
+06-16 18:43:48.031 D/AudioFlinger(1314): start(4097), calling pid 1314 session 17
+06-16 18:43:48.031 D/AudioFlinger(1314): ? => ACTIVE (4097) on thread 0x44d6ab08
+06-16 18:43:48.031 D/AudioPolicyManagerBase(1314): startOutput() output 2, stream 3, session 17
+06-16 18:43:48.051 E/MediaPlayer(6855): error (1, -2147483648)
+06-16 18:43:48.051 D/AudioPlayer(1314): Pause Playback at 0
+06-16 18:43:48.061 D/AudioStreamOutALSA(1314): Preparing the playback device @ rate 48000 
+06-16 18:43:48.111 E/MediaPlayer(6855): Error (1,-2147483648)
+06-16 18:43:48.111 D/VideoView(6855): Error: 1,-2147483648
+06-16 18:43:48.411 D/AudioPlayer(1314): reset: mPlaying=0 mReachedEOS=0 useOffload=0
+06-16 18:43:48.421 W/TimedEventQueue(1314): Event 5 was not found in the queue, already cancelled?
+06-16 18:43:48.421 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:portFlushInProgress: Port-0 FLUSH in Progress
+06-16 18:43:48.421 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+06-16 18:43:48.421 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:portFlushInProgress: Port-0 FLUSH in Progress
+06-16 18:43:48.421 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:portFlushInProgress: Port-0 FLUSH in Progress
+06-16 18:43:48.421 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:portFlushInProgress: Port-0 FLUSH in Progress
+06-16 18:43:48.421 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+06-16 18:43:48.421 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x400d4ad0 successful
+06-16 18:43:48.421 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x400d4a48 successful
+06-16 18:43:48.421 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x44890ee0 successful
+06-16 18:43:48.421 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:bufferHandler: PORT-0: BufferHandler thread exiting....
+06-16 18:43:48.421 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:bufferHandler: PORT-1: BufferHandler thread exiting....
+06-16 18:43:48.421 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-0,  Populated state <0>
+06-16 18:43:48.421 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <1>
+06-16 18:43:48.421 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x46397f78 successful
+06-16 18:43:48.421 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41e396b8 successful
+06-16 18:43:48.421 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x400d4db0 successful
+06-16 18:43:48.421 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x400d4b28 successful
+06-16 18:43:48.421 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4225d1b0 successful
+06-16 18:43:48.421 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <0>
+06-16 18:43:48.431 I/BRCM-OMX(1314): ([OMX.brcm.audio.aac.decoder]:codecSyncHandler: codecSyncHandler thread exiting....
+06-16 18:43:48.431 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:commandHandler: CommandHandler thread exiting....
+06-16 18:43:48.441 I/NuCachedSource2(1314): ERROR_END_OF_STREAM
+06-16 18:43:48.441 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41fbbce8 successful
+06-16 18:43:48.441 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41fbbc48 successful
+06-16 18:43:48.441 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4224fa80 successful
+06-16 18:43:48.441 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41e386b8 successful
+06-16 18:43:48.441 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41e385e8 successful
+06-16 18:43:48.441 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41e38518 successful
+06-16 18:43:48.441 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41fbbdb8 successful
+06-16 18:43:48.441 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x41fbbbf0 successful
+06-16 18:43:48.441 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4224f8b8 successful
+06-16 18:43:48.441 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x46520e08 successful
+06-16 18:43:48.461 D/ActivityThread(7869): handleBindApplication:com.maxmpz.audioplayer
+06-16 18:43:48.461 W/AudioFlinger(1314): session id 17 not found for pid 6855
+06-16 18:43:48.471 D/ActivityThread(7869): setTargetHeapUtilization:0.25
+06-16 18:43:48.471 D/ActivityThread(7869): setTargetHeapMinFree:524288
+06-16 18:43:48.471 D/MediaPlayer(6855): Couldn't open file on client side, trying server side
+06-16 18:43:48.481 I/AwesomePlayer(1314): setDataSource_l(URL suppressed)
+06-16 18:43:48.672 E/lights  (1696): lights_set_keyboard called
+06-16 18:43:48.672 E/lights  (1696):  light_HAL_set_KeypadLed write brightness=0 
+06-16 18:43:50.073 W/audioplayer.Application(7869): Detected NEON support
+06-16 18:43:50.073 I/SampleTable(1314): There are reordered frames present.
+06-16 18:43:50.093 W/audioplayer.Application(7869): Detected Samsung
+06-16 18:43:50.093 I/audioplayer.Application(7869): man=samsung pro=nevisp mod=GT-S6810P dev=nevisp type=userdebug board=rhea rel=4.4.4 osVersion=3.0.15
+06-16 18:43:50.093 W/audioplayer.Application(7869): Poweramp edition: arm-play
+06-16 18:43:50.103 D/OMXCodec(1314): Successfully allocated OMX node 'OMX.google.h264.decoder'
+06-16 18:43:50.103 I/OMXCodec(1314): [OMX.google.h264.decoder] AVC profile = 77 (Main), level = 30
+06-16 18:43:50.103 I/OMXCodec(1314): [OMX.google.h264.decoder] video dimensions are 320 x 240
+06-16 18:43:50.103 I/OMXCodec(1314): [OMX.google.h264.decoder] Crop rect is 320 x 240 @ (0, 0)
+06-16 18:43:50.103 I/OMXCodec(1314): [OMX.google.h264.decoder] allocating 8 buffers of size 65536 on input port
+06-16 18:43:50.103 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x4221ddb8 on input port
+06-16 18:43:50.103 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x4221df38 on input port
+06-16 18:43:50.103 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x4865d5d0 on input port
+06-16 18:43:50.103 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x44890c98 on input port
+06-16 18:43:50.103 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x44890d50 on input port
+06-16 18:43:50.103 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x4221de10 on input port
+06-16 18:43:50.113 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x4219ac98 on input port
+06-16 18:43:50.113 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x4219ad50 on input port
+06-16 18:43:50.113 I/OMXCodec(1314): [OMX.google.h264.decoder] allocating 2 buffers of size 115200 on output port
+06-16 18:43:50.113 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x4219ae98 on output port
+06-16 18:43:50.113 I/OMXCodec(1314): [OMX.google.h264.decoder] allocated buffer 0x460f2108 on output port
+06-16 18:43:50.113 W/AudioPolicyManagerBase(1314): offload disabled by av.offload.enable = false 
+06-16 18:43:50.143 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:OMX_BaseComponentSync: SYNC interface
+06-16 18:43:50.153 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:startCommandHandler: Started commandHandler thread...
+06-16 18:43:50.153 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:startCodecSyncHandler: Started CodecSyncHandler thread...
+06-16 18:43:50.153 D/OMXCodec(1314): Successfully allocated OMX node 'OMX.brcm.audio.aac.decoder'
+06-16 18:43:50.153 I/OMXCodec(1314): Codec outputs a different number of channels than the input stream contains (contains 1 channels, codec outputs 2 channels).
+06-16 18:43:50.153 I/OMXCodec(1314): Codec outputs at different sampling rate than what the input stream contains (contains data at 22050 Hz, codec outputs 44100 Hz)
+06-16 18:43:50.153 I/AwesomePlayer(1314): Could not offload audio decode, try pcm offload (16-bit)
+06-16 18:43:50.153 W/AudioPolicyManagerBase(1314): offload disabled by av.offload.enable = false 
+06-16 18:43:50.153 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocating 4 buffers of size 8192 on input port
+06-16 18:43:50.153 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x47c389c8 on input port
+06-16 18:43:50.153 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x47c38b58 on input port
+06-16 18:43:50.153 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x47c38c28 on input port
+06-16 18:43:50.153 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x47c38ce0 on input port
+06-16 18:43:50.153 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocating 4 buffers of size 24576 on output port
+06-16 18:43:50.153 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x44784008 on output port
+06-16 18:43:50.153 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x447841f0 on output port
+06-16 18:43:50.153 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x44784330 on output port
+06-16 18:43:50.153 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x44784458 on output port
+06-16 18:43:50.153 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-0,  Populated state <1>
+06-16 18:43:50.153 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <1>
+06-16 18:43:50.153 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:startBufferHandler: Started BufferHandler thread-0...
+06-16 18:43:50.153 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:startBufferHandler: Started BufferHandler thread-1...
+06-16 18:43:50.263 W/audioplayer.Application(7869): tab=false screenSize=2 dpi=160 den=1.0 swdp=320 w/h=320x480
+06-16 18:43:50.263 W/audioplayer.Application(7869): MAX_MEMORY=56
+06-16 18:43:50.533 V/AudioHardwareALSA(1314): AudioHardwareALSA::getParameters active_ap=Music;dolby_srs_eq
+06-16 18:43:50.533 I/str_params(1314): key: 'active_ap' value: 'Music'
+06-16 18:43:50.533 I/str_params(1314): key: 'dolby_srs_eq' value: ''
+06-16 18:43:50.533 I/dalvikvm(7869): Could not find method android.provider.DocumentsContract.buildDocumentUriUsingTree, referenced from method com.maxmpz.audioplayer.data.ll11.��
+06-16 18:43:50.543 W/dalvikvm(7869): VFY: unable to resolve static method 956: Landroid/provider/DocumentsContract;.buildDocumentUriUsingTree (Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+06-16 18:43:50.543 D/dalvikvm(7869): VFY: replacing opcode 0x71 at 0x00a1
+06-16 18:43:50.964 I/ActivityManager(1696): Process com.android.vending.billing.InAppBillingService.LUCK (pid 7545) has died.
+06-16 18:43:51.064 D/AudioStreamOutALSA(1314): AudioStreamOutALSA::standby--pause, rate = 48000 
+06-16 18:43:51.164 D/MediaPlayer(6855): getMetadata
+06-16 18:43:51.184 E/SoftAVC (1314): Decoder failed: -2
+06-16 18:43:51.184 E/OMXCodec(1314): [OMX.google.h264.decoder] ERROR(0x80001001, -1007)
+06-16 18:43:51.184 D/AudioPlayer(1314): start of Playback, useOffload 0
+06-16 18:43:51.184 W/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processHeader: dec header consumed only 0 bytes, discarding 5 bytes
+06-16 18:43:51.184 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processHeader: sample rate [44100] does not match with codec sample rate [0]
+06-16 18:43:51.184 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processHeader: channels [2] does not match with codec channels [0]
+06-16 18:43:51.184 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+06-16 18:43:51.184 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x447841f0 successful
+06-16 18:43:51.184 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x44784330 successful
+06-16 18:43:51.194 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x44784458 successful
+06-16 18:43:51.194 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x44784008 successful
+06-16 18:43:51.194 I/OMXCodec(1314): Codec outputs a different number of channels than the input stream contains (contains 1 channels, codec outputs 2 channels).
+06-16 18:43:51.194 I/OMXCodec(1314): Codec outputs at different sampling rate than what the input stream contains (contains data at 22050 Hz, codec outputs 44100 Hz)
+06-16 18:43:51.194 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocating 4 buffers of size 24576 on output port
+06-16 18:43:51.194 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x481658b0 on output port
+06-16 18:43:51.194 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x481659d0 on output port
+06-16 18:43:51.194 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x48165bf0 on output port
+06-16 18:43:51.194 I/OMXCodec(1314): [OMX.brcm.audio.aac.decoder] allocated buffer 0x47c38d68 on output port
+06-16 18:43:51.194 D/AudioPolicyManagerBase(1314): getOutput() device 2, stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+06-16 18:43:51.194 D/AudioPolicyManagerBase(1314): getOutput() returns output 2
+06-16 18:43:51.194 D/AudioPolicyManagerBase(1314): getOutput() device 2, stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+06-16 18:43:51.194 D/AudioPolicyManagerBase(1314): getOutput() returns output 2
+06-16 18:43:51.194 D/AudioPolicyManagerBase(1314): getOutput() device 2, stream 3, samplingRate 44100, format 1, channelMask 3, flags 0
+06-16 18:43:51.194 D/AudioPolicyManagerBase(1314): getOutput() returns output 2
+06-16 18:43:51.194 D/AudioPolicyManagerBase(1314): getOutput() device 2, stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+06-16 18:43:51.194 D/AudioPolicyManagerBase(1314): getOutput() returns output 2
+06-16 18:43:51.194 D/AudioFlinger(1314): start(4097), calling pid 1314 session 17
+06-16 18:43:51.194 D/AudioFlinger(1314): ? => ACTIVE (4097) on thread 0x45518e48
+06-16 18:43:51.194 D/AudioPolicyManagerBase(1314): startOutput() output 2, stream 3, session 17
+06-16 18:43:51.194 D/AudioStreamOutALSA(1314): Preparing the playback device @ rate 48000 
+06-16 18:43:51.204 D/AudioPlayer(1314): Pause Playback at 0
+06-16 18:43:51.204 E/MediaPlayer(6855): error (1, -2147483648)
+06-16 18:43:51.204 E/MediaPlayer(6855): Attempt to call getDuration without a valid mediaplayer
+06-16 18:43:51.204 E/MediaPlayer(6855): error (-38, 0)
+06-16 18:43:51.204 E/MediaPlayer(6855): Attempt to call getDuration without a valid mediaplayer
+06-16 18:43:51.214 E/MediaPlayer(6855): error (-38, 0)
+06-16 18:43:51.214 E/MediaPlayer(6855): Error (1,-2147483648)
+06-16 18:43:51.214 D/VideoView(6855): Error: 1,-2147483648
+06-16 18:43:51.264 E/fb4a(:<default>):reason( 6855): FullScreen VideoView error = 1 -2147483648
+06-16 18:43:51.364 E/MediaPlayer(6855): Error (-38,0)
+06-16 18:43:51.364 D/VideoView(6855): Error: -38,0
+06-16 18:43:51.364 E/fb4a(:<default>):reason( 6855): FullScreen VideoView error = -38 0
+06-16 18:43:51.374 E/MediaPlayer(6855): Error (-38,0)
+06-16 18:43:51.374 D/VideoView(6855): Error: -38,0
+06-16 18:43:51.374 E/fb4a(:<default>):reason( 6855): FullScreen VideoView error = -38 0
+06-16 18:43:51.965 D/AudioPlayer(1314): reset: mPlaying=0 mReachedEOS=0 useOffload=0
+06-16 18:43:51.965 W/TimedEventQueue(1314): Event 5 was not found in the queue, already cancelled?
+06-16 18:43:51.965 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+06-16 18:43:51.965 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:portFlushInProgress: Port-0 FLUSH in Progress
+06-16 18:43:51.965 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:portFlushInProgress: Port-0 FLUSH in Progress
+06-16 18:43:51.965 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:processFlush: Process Flush in Base Auio Dec triggers reset on the codec API
+06-16 18:43:51.965 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x47c38ce0 successful
+06-16 18:43:51.965 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x47c38c28 successful
+06-16 18:43:51.965 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:bufferHandler: PORT-0: BufferHandler thread exiting....
+06-16 18:43:51.965 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:bufferHandler: PORT-1: BufferHandler thread exiting....
+06-16 18:43:51.965 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-0,  Populated state <0>
+06-16 18:43:51.965 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <1>
+06-16 18:43:51.965 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x47c38b58 successful
+06-16 18:43:51.965 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x47c389c8 successful
+06-16 18:43:51.965 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x47c38d68 successful
+06-16 18:43:51.965 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x48165bf0 successful
+06-16 18:43:51.965 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x481659d0 successful
+06-16 18:43:51.965 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x481658b0 successful
+06-16 18:43:51.965 W/BRCM-OMXAudioPort(1314): [OMX.brcm.audio.aac.decoder]:isPopulated: PORT-1,  Populated state <0>
+06-16 18:43:51.975 I/BRCM-OMX(1314): ([OMX.brcm.audio.aac.decoder]:codecSyncHandler: codecSyncHandler thread exiting....
+06-16 18:43:51.975 I/BRCM-OMX(1314): [OMX.brcm.audio.aac.decoder]:commandHandler: CommandHandler thread exiting....
+06-16 18:43:51.975 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4219ad50 successful
+06-16 18:43:51.975 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4219ac98 successful
+06-16 18:43:51.975 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4221de10 successful
+06-16 18:43:51.975 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x44890d50 successful
+06-16 18:43:51.975 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x44890c98 successful
+06-16 18:43:51.975 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4865d5d0 successful
+06-16 18:43:51.975 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4221df38 successful
+06-16 18:43:51.975 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4221ddb8 successful
+06-16 18:43:51.975 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x460f2108 successful
+06-16 18:43:51.975 I/OMXNodeInstance(1314): OMX_FreeBuffer for buffer header 0x4219ae98 successful
